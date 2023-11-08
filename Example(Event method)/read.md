@@ -1,5 +1,9 @@
 # Unity 스크립트 소스
 1. Player.cs
+- 플레이어 객체의 컴포넌트 이며, 플레이어의 이동 및 충돌 여부를 결정합니다.
 2. Obstacles.cs
-3. Score.cs
-4. PlayerMove.cs
+- 장애물 객체의 컴포넌트 이며, 장애물의 생성과 이동을 담당합니다.
+3. ScoreMannager.cs
+- 점수 TMP UI의 컴포넌트 이며, 시간마다 10점씩 점수가 오르게끔 설정하였습니다.
+4. CubeMover.cs
+- 특정 좌표에 도착했을때 장애물을 지워주는 역할을 담당합니다.
